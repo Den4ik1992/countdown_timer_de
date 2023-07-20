@@ -55,9 +55,9 @@
     <button class="button" style="border-radius: {shape};  font-size: {size};  background-color: {color};">
       {#if distance/1000<=0} {complete_text} {/if}
       {#if days>0} {days} days {/if} 
-      {#if hours>0} {hours} hrs {/if} 
-      {#if minutes>0} {minutes} mins {/if} 
-      {#if seconds>0} {seconds} secs {/if}
+      {#if hours>0} {hours} : {/if} 
+      {#if minutes>0} {minutes} : {/if} 
+      {#if seconds>0} {seconds} : {/if}
     </button>
   {/if}
 </div>
